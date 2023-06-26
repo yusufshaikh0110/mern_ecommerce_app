@@ -8,14 +8,15 @@ const cors = require('cors')
 const categoryRoutes = require('./routes/categoryRoutes')
 const productRoutes = require('./routes/productRoutes')
 const path = require('path')
-const {fileURLToPath} = require('url')
+const { fileURLToPath } = require('url')
 
 //configure dotenv
 dotenv.config();
 
 //esmodule fix
-const __filename = fileURLToPath("import.meta.url")
-const __dirname = path.dirname(__filename)
+// const __filename = fileURLToPath("import.meta.url")
+// const __dirname = path.dirname(__filename)
+
 //rest object
 const app = express()
 
